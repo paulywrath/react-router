@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Blue from './Blue';
+import Home from './components/Home';
+import Blue from './components/Blue';
+import Red from './components/Red';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path='/' Component={Home} />
         <Route path='/blue' Component={Blue} />
+        <Route path='/red' Component={Red} />
       </Routes>
     </>
   )
