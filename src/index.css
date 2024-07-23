@@ -1,3 +1,9 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
 h2 {
   margin: 0;
   padding: 0;
